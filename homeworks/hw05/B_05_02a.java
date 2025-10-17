@@ -1,6 +1,6 @@
 package homeworks.hw05;
 
-public class B_05_02 {
+public class B_05_02a {
     public static void main(String[] args) {
         System.out.println(check(""));
         System.out.println(check("0"));
