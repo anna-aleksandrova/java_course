@@ -6,6 +6,7 @@ import java.util.List;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.FileInputStream;
+import java.io.EOFException;
 
 public class B_07_02 {
     public static void main(String[] args) {
@@ -21,6 +22,8 @@ public class B_07_02 {
         toys.add(t3);
 
         write(F, toys);
+        getToys(F, G, 5);
+        System.out.println(read(G));
     }
 
     public static void write(String file, List<Toy> lst) {
@@ -41,6 +44,31 @@ public class B_07_02 {
         try (
             FileInputStream fis = new FileInputStream(file);
             ObjectInputStream ois = new ObjectInputStream(fis);
-        )
+        ) {
+            while(true) {
+                try {
+                    Toy t = (Toy) ois.readObject();
+                    res.add(t);
+                } catch (EOFException e) {
+                    break;
+                } catch (IOException e) {
+                    System.err.println(e.getMessage());
+                } catch (ClassNotFoundException e) {
+                    System.err.println(e.getMessage());
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Error while reading from file: " + e.getMessage());
+        }
+        return res;
+    }
+
+    public static void getToys(String fin, String fout, int age) {
+        List<Toy> toys = read(fin);
+        List<Toy> res = new ArrayList<>();
+        for (Toy toy : toys) {
+            if (toy.LowerBound >= age) res.add(toy);
+        }
+        write(fout, res);
     }
 }
