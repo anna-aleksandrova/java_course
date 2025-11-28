@@ -1,0 +1,3 @@
+parallelism (dish washing and talking): multiprocessing (процес)
+
+concurrency (dish washing and fruit slicing): threading (asyncio: in Python, but not in Java) (потік)
