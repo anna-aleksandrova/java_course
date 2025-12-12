@@ -1,0 +1,122 @@
+Select mode:
+1. Console input
+2. File input (test/NZ_test.dat)
+------- RUNNING IN CONSOLE MODE --------
+Server: You're at the server.
+
+------- Menu -------
+1. Register a new user
+2. Login as existing user
+3. Exit
+User input: 2
+Enter username: 
+User input: a
+Login failed: Could not find keys for user 'a'. Please register first.
+
+------- Menu -------
+1. Register a new user
+2. Login as existing user
+3. Exit
+User input: a
+Invalid option, please try again.
+
+------- Menu -------
+1. Register a new user
+2. Login as existing user
+3. Exit
+User input: 1
+Enter new username: 
+User input: a
+Choose an algorithm:
+1. EL_GAMAL
+2. RSA_4096
+User input: 1
+Generating key pair (ElGamal)...
+Keys are generated and saved locally.
+Server: OK: User registered and logged in.
+
+--- a's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 1
+Enter message (will be encrypted with your public key):
+User input: Hello, world!
+Server: OK: Message stored successfully.
+
+--- a's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 3
+
+------- Menu -------
+1. Register a new user
+2. Login as existing user
+3. Exit
+User input: 1
+Enter new username: 
+User input: b
+Choose an algorithm:
+1. EL_GAMAL
+2. RSA_4096
+User input: 2
+Generating key pair (RSA)...
+Keys are generated and saved locally.
+Server: OK: User registered and logged in.
+
+--- b's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 1
+Enter message (will be encrypted with your public key):
+User input: Hi, a!
+Server: OK: Message stored successfully.
+
+--- b's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 2
+--- Your Decrypted Message ---
+Hi, a!
+--------------------------------
+
+--- b's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 3
+
+------- Menu -------
+1. Register a new user
+2. Login as existing user
+3. Exit
+User input: 2
+Enter username: 
+User input: a
+Keys loaded from files. Logging in...
+Server: OK: Logged in as a
+
+--- a's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 2
+--- Your Decrypted Message ---
+Hello, world!
+--------------------------------
+
+--- a's menu ---
+1. Send (encrypt) a new message
+2. Get (decrypt) my message
+3. Back to client's menu
+4. Exit
+User input: 4
