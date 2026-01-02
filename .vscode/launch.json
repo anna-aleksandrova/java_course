@@ -1,0 +1,318 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "homeworks.hw12.Main",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_11_05_Fixed",
+            "request": "launch",
+            "mainClass": "homeworks.hw11.B_11_05_Fixed",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_11_05",
+            "request": "launch",
+            "mainClass": "homeworks.hw11.B_11_05",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_11_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw11.B_11_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_01_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw11.B_01_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "homeworks.hw11.test",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_11_02",
+            "request": "launch",
+            "mainClass": "practices.practice11.A_11_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_11_01",
+            "request": "launch",
+            "mainClass": "practices.practice11.A_11_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_10_01_Client",
+            "request": "launch",
+            "mainClass": "homeworks.hw10.B_10_01_Client",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_10_01_Server",
+            "request": "launch",
+            "mainClass": "homeworks.hw10.B_10_01_Server",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_10_01_Client",
+            "request": "launch",
+            "mainClass": "practices.practice10.A_10_01_Client",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_10_01_Server",
+            "request": "launch",
+            "mainClass": "practices.practice10.A_10_01_Server",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "SimpleClient",
+            "request": "launch",
+            "mainClass": "practices.practice10.SimpleClient",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "SimpleServer",
+            "request": "launch",
+            "mainClass": "practices.practice10.SimpleServer",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "practices.practice12.Main",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B09_02",
+            "request": "launch",
+            "mainClass": "homeworks.hw09.B09_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B09_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw09.B09_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A09_01",
+            "request": "launch",
+            "mainClass": "practices.practice09.A09_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_04",
+            "request": "launch",
+            "mainClass": "homeworks.hw08.B_08_04",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_03",
+            "request": "launch",
+            "mainClass": "homeworks.hw08.B_08_03",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_02",
+            "request": "launch",
+            "mainClass": "homeworks.hw08.B_08_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw08.B_08_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_10_01Server",
+            "request": "launch",
+            "mainClass": "practices.practice10.A_10_01Server",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_07_02",
+            "request": "launch",
+            "mainClass": "homeworks.hw07.B_07_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_07_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw07.B_07_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "example",
+            "request": "launch",
+            "mainClass": "practices.practice09.example",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_05",
+            "request": "launch",
+            "mainClass": "practices.practice08.B_08_05",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_04",
+            "request": "launch",
+            "mainClass": "practices.practice08.B_08_04",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_03",
+            "request": "launch",
+            "mainClass": "practices.practice08.B_08_03",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_02",
+            "request": "launch",
+            "mainClass": "practices.practice08.B_08_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_08_01",
+            "request": "launch",
+            "mainClass": "practices.practice08.B_08_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_06_03",
+            "request": "launch",
+            "mainClass": "homeworks.hw06.B_06_03",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_06_02",
+            "request": "launch",
+            "mainClass": "homeworks.hw06.B_06_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_06_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw06.B_06_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_07_01",
+            "request": "launch",
+            "mainClass": "practices.practice07.A_07_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_05_03",
+            "request": "launch",
+            "mainClass": "homeworks.hw05.B_05_03",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_05_02c",
+            "request": "launch",
+            "mainClass": "homeworks.hw05.B_05_02c",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_05_02b",
+            "request": "launch",
+            "mainClass": "homeworks.hw05.B_05_02b",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_05_02",
+            "request": "launch",
+            "mainClass": "homeworks.hw05.B_05_02",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "B_05_01",
+            "request": "launch",
+            "mainClass": "homeworks.hw05.B_05_01",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A06_04",
+            "request": "launch",
+            "mainClass": "A06_04",
+            "projectName": "java_course_450c1e31"
+        },
+        {
+            "type": "java",
+            "name": "A_06_04",
+            "request": "launch",
+            "mainClass": "A_06_04"
+        },
+        {
+            "type": "java",
+            "name": "A_06_03",
+            "request": "launch",
+            "mainClass": "A_06_03"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "java_course.homeworks.hw04.Main"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
